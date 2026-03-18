@@ -9,4 +9,6 @@
      {
          return numbers.Average();
      }
+     
+     public static int GetMaxValue(int[] numbers) => numbers.Max();
  }
