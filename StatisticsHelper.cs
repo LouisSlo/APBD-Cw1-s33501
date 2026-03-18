@@ -4,4 +4,9 @@
      {
          return numbers.Max();
      }
+     
+     public static double GetAverage(int[] numbers)
+     {
+         return numbers.Average();
+     }
  }
