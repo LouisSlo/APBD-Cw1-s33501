@@ -12,5 +12,5 @@
      
      public static int GetMaxValue(int[] numbers) => numbers.Max();
      
-     public static int GetMin(int[] numbers) => 0; 
+     public static int GetMin(int[] numbers) => numbers.Min(); 
  }
